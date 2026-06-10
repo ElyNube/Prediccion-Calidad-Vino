@@ -3,13 +3,13 @@
 El objetivo de este análisis es identificar qué variables físico-químicas tienen el mayor impacto en la calidad final del vino rojo. Desde una perspectiva estratégica, este modelo permite a los productores vitivinícolas enfocar sus recursos en las métricas críticas durante el proceso de fermentación, maximizando la rentabilidad del producto final mediante decisiones basadas en datos empíricos.
 
 ## 🛠️Herramientas y Metodologías
-Lenguaje y Librerías: Python, Pandas, Matplotlib, Seaborn.
+* Lenguaje y Librerías: Python, Pandas, Matplotlib, Seaborn.
 
-Técnicas de Optimización: Descenso de Gradiente, Análisis de Propiedades Matriciales.
+* Técnicas de Optimización: Descenso de Gradiente, Análisis de Propiedades Matriciales.
 
-Modelado y Regularización: Mínimos Cuadrados (OLS), Regresión Ridge (L2) y Regresión Lasso (L1).
+* Modelado y Regularización: Mínimos Cuadrados (OLS), Regresión Ridge (L2) y Regresión Lasso (L1).
 
-Reducción de Dimensionalidad: Análisis de Componentes Principales (PCA).
+* Reducción de Dimensionalidad: Análisis de Componentes Principales (PCA).
 
 ## 📊 Fases del Análisis y Hallazgos Principales
 
