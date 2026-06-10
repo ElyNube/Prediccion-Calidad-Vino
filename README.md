@@ -34,9 +34,9 @@ Se compararon distintas técnicas de penalización para evaluar su impacto en el
 
 4. El Impacto de PCA en la Toma de Decisiones
 
-Se evaluó la aplicación de PCA para resolver posibles problemas de colinealidad. 
+* Se evaluó la aplicación de PCA para resolver posibles problemas de colinealidad. 
 
-Al aplicar el criterio del 90% de varianza explicada, el algoritmo obligó a retener los 4 componentes principales, ya que los primeros tres solo sumaban un 89.06% de la varianza.  
+* Al aplicar el criterio del 90% de varianza explicada, el algoritmo obligó a retener los 4 componentes principales, ya que los primeros tres solo sumaban un 89.06% de la varianza.  
 
 Conclusión crítica: Desde la perspectiva operativa, la aplicación de PCA en este conjunto específico destruyó la interpretabilidad directa de los factores químicos sin aportar ventaja predictiva ni computacional, convirtiendo el modelo en una caja negra para el área de enología.
 
