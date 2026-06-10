@@ -1,5 +1,5 @@
 # Análisis de Factores de Calidad del Vino y Optimización de Modelos Predictivos
-##📌Objetivo del Proyecto y Visión de Negocio
+## 📌Objetivo del Proyecto y Visión de Negocio
 El objetivo de este análisis es identificar qué variables físico-químicas tienen el mayor impacto en la calidad final del vino rojo. Desde una perspectiva estratégica, este modelo permite a los productores vitivinícolas enfocar sus recursos en las métricas críticas durante el proceso de fermentación, maximizando la rentabilidad del producto final mediante decisiones basadas en datos empíricos.
 
 ## 🛠️Herramientas y Metodologías
@@ -16,7 +16,9 @@ Reducción de Dimensionalidad: Análisis de Componentes Principales (PCA).
 1. Selección de Variables y Comportamiento del Producto
 Tras un análisis de correlación para evitar el sobreajuste y la redundancia, el problema se redujo a cuatro variables predictoras clave:
 
-Alcohol (0.48): Representa la correlación positiva más fuerte, indicando que vinos con mayor graduación tienden a recibir mejores puntuaciones de calidad.  Acidez Volátil (-0.39): Presenta una correlación negativa moderada, ya que niveles altos otorgan un sabor avinagrado que reduce drásticamente la calidad percibida.  Sulfatos (0.25) y Ácido Cítrico (0.23): Tienen una influencia positiva al actuar como conservantes y aportar frescura.
+* Alcohol (0.48): Representa la correlación positiva más fuerte, indicando que vinos con mayor graduación tienden a recibir mejores puntuaciones de calidad.
+* Acidez Volátil (-0.39): Presenta una correlación negativa moderada, ya que niveles altos otorgan un sabor avinagrado que reduce drásticamente la calidad percibida. 
+* Sulfatos (0.25) y Ácido Cítrico (0.23): Tienen una influencia positiva al actuar como conservantes y aportar frescura.
 
 2. Optimización Numérica y Estabilidad del Modelo
 
