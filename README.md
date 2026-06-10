@@ -22,15 +22,15 @@ Tras un análisis de correlación para evitar el sobreajuste y la redundancia, e
 
 2. Optimización Numérica y Estabilidad del Modelo
 
-Se demostró la viabilidad matemática del modelo al confirmar que la matriz de diseño era invertible, con un determinante mayor a cero y rango completo. 
-Se implementó un algoritmo de descenso de gradiente que logró una convergencia exitosa y estable hacia el mínimo global (MSE 0.4538) utilizando una tasa de aprendizaje óptima de 0.01.
+* Se demostró la viabilidad matemática del modelo al confirmar que la matriz de diseño era invertible, con un determinante mayor a cero y rango completo. 
+* Se implementó un algoritmo de descenso de gradiente que logró una convergencia exitosa y estable hacia el mínimo global (MSE 0.4538) utilizando una tasa de aprendizaje óptima de 0.01.
 
 3. Evaluación de Regularización (El costo de la simplificación)
 Se compararon distintas técnicas de penalización para evaluar su impacto en el negocio:
 
-Lasso (L1): Actuó como un filtro extremo, reduciendo el coeficiente del ácido cítrico exactamente a cero. Esto ofrece un modelo altamente simplificado donde solo se necesitan medir tres químicos en laboratorio, a costa de una pérdida insignificante de precisión predictiva. 
+* Lasso (L1): Actuó como un filtro extremo, reduciendo el coeficiente del ácido cítrico exactamente a cero. Esto ofrece un modelo altamente simplificado donde solo se necesitan medir tres químicos en laboratorio, a costa de una pérdida insignificante de precisión predictiva. 
 
-Ridge (L2): Mantuvo las cuatro variables reduciendo levemente la magnitud de los coeficientes. Se posicionó como el equilibrio óptimo al mejorar la estabilidad numérica y lograr un MSE de 0.41379, manteniendo intacta la interpretabilidad de cada variable química.
+* Ridge (L2): Mantuvo las cuatro variables reduciendo levemente la magnitud de los coeficientes. Se posicionó como el equilibrio óptimo al mejorar la estabilidad numérica y lograr un MSE de 0.41379, manteniendo intacta la interpretabilidad de cada variable química.
 
 4. El Impacto de PCA en la Toma de Decisiones
 
